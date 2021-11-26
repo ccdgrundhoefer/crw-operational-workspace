@@ -5,14 +5,14 @@ projects:
     source:
       location: 'https://github.com/ccdgrundhoefer/crw-operational-workspace.git'
       type: git 
+attributes:
+  persistVolumes: 'false'
 components:
   - id: redhat/vscode-openshift-connector/latest
     type: chePlugin
-  - id: redhat/vscode-yaml/latest
-    type: chePlugin
   - mountSources: true
     memoryLimit: 512Mi
-    cpuLimit: 2
+    cpuLimit: 500m
     type: dockerimage
     alias: oc
     image: >-
