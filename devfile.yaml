@@ -12,7 +12,7 @@ components:
     type: chePlugin
   - mountSources: true
     memoryLimit: 512Mi
-    cpuLimit: 500m
+    cpuLimit: 1
     type: dockerimage
     alias: oc
     image: >-
