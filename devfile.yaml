@@ -1,3 +1,4 @@
+apiVersion: 1.0.0
 metadata:
   generateName: crw-openshift-
 projects:
@@ -19,4 +20,3 @@ components:
     alias: oc
     image: >-
       registry.redhat.io/codeready-workspaces/plugin-kubernetes-rhel8:2.12
-apiVersion: 1.0.0
